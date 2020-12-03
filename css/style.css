@@ -247,14 +247,14 @@ input, select {
       height: 380px;
       width: 580px;
       position: center;
-      margin-left: 850px;
-      padding-top: 120px;
+      float: right;
+      margin-right: 50px;
+      padding-top: 100px;
   }
 
   #service {
       background-color: rgb(241, 241, 241);
       height: 1450px;
-      position: relative;
   }
 
   #service img {
@@ -262,8 +262,14 @@ input, select {
       height: 500px;
   }
 
+  .syuusei1 {
+      position: relative;
+      margin: 0 0 0 auto;
+      width:1200px;
+  }
+
   .img1 {
-      margin-left: 760px;
+    margin: 0 0 0 auto;
   }
 
   .service-text {
@@ -274,8 +280,7 @@ input, select {
 
   #content1 {
       position: absolute;
-      left: 300px;
-      top: 170px;
+      top: 130px;
   }
 
   h3 {
@@ -287,13 +292,15 @@ input, select {
       padding-top: 20px;
   }
 
-  .img2 {
+  .syuusei2 {
+      position: relative;
+      width: 1200px;
       margin-top: 200px;
   }
 
   #content2 {
       position: absolute;
-      top: 920px;
+      top: 200px;
       left: 620px;
   }
 
@@ -306,7 +313,6 @@ input, select {
       background: url(../img/img/company.jpeg) no-repeat;
       background-size: cover;
       background-position: center;
-      margin-right: 80px;
       height: 200px;
       width: 730px;
   }
@@ -317,6 +323,7 @@ input, select {
       background-position: center;
       height: 200px;
       width: 730px;
+      margin: 0 0 0 auto;
   }
 
   .text3 {
