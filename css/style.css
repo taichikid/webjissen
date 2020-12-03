@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  .wrap {
+    width: 80%;
+    margin: 0 auto 50px;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .between {
+    justify-content: space-between;
+  }
+  
+  .around {
+    justify-content: space-around;
+  }
+
+  header,
+  footer {
+      background-color: black;
+      height: 70px;
+  }
+
+  .header-logo {
+      color: white;
+      font-size: 20px;
+      font-style: bold;
+      margin-left: 35px;
+      line-height: 70px;
+  }
+
+  li {
+      margin-right: 35px;
+      display: inline-block;
+      font-size: 16px;
+  }
+
+  a {
+      color: white;
+      text-decoration: none;
+  }
+
+  #eyecatch {
+      background: url(../img/img/eyecatch.jpg) no-repeat;
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+  }
+
+  #eyecatch h2 {
+      position: absolute;
+      top: 350px;
+      left: 150px;
+      color: #ccc;
+      font-style: bold;
+      font-size: 40px;
+      font-style: italic;
+  }
+
+  .news {
+      padding: 20px 50px;
+      background-color: black;
+      color: white;
+      font-style: bold;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+  }
+
+  .news-text {
+    width: 550px;
+    height: 45px;
+    padding: 5px 0px 5px 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 140px;
+  }
+
+  .news-text p {
+      color: black;
+      font-size: 12px;
+  }
+
+  .text2 {
+      text-indent: 1em;
+  }
+
+  .mission {
+      height: 450px;
+      background-color: black;
+      position: relative;
+      margin-bottom: 200px;
+  }
+
+  .mission-text {
+      position: absolute;
+      top: 150px;
+      left: 300px;
+      width: 790px;
+      
+  }
+
+  .mission-text h2 {
+      color: white;
+      margin-bottom: 30px;
+      font-size: 24px;
+  }
+
+  .mission-content {
+      color: white;
+      font-size: 13px;
+      margin-bottom: 30px;
+      padding-bottom: 5px;
+      
+  }
+
+  .mission-botton {
+      background-color: white;
+      padding: 10px 20px;
+      width: 100px;
+      font-size: 14px;
+  }
+
+  .mission img {
+      height: 380px;
+      width: 580px;
+      position: center;
+      margin-left: 850px;
+      padding-top: 120px;
+  }
+
+  #service {
+      background-color: rgb(241, 241, 241);
+      height: 1450px;
+      position: relative;
+  }
+
+  #service img {
+      width: 760px;
+      height: 500px;
+  }
+
+  .img1 {
+      margin-left: 760px;
+  }
+
+  .service-text {
+      width: 440px;
+      padding: 70px 80px;
+      background-color: white;
+  }
+
+  #content1 {
+      position: absolute;
+      left: 300px;
+      top: 170px;
+  }
+
+  h3 {
+      font-size: 12px;
+  }
+
+  .service-text p {
+      font-size: 12px;
+      padding-top: 20px;
+  }
+
+  .img2 {
+      margin-top: 200px;
+  }
+
+  #content2 {
+      position: absolute;
+      top: 920px;
+      left: 620px;
+  }
+
+  #company-recruit {
+      display: flex;
+      margin-top: 100px; 
+  }
+    
+  #company {
+      background: url(../img/img/company.jpeg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-right: 80px;
+      height: 200px;
+      width: 730px;
+  }
+
+  #recruit {
+      background: url(../img/img/recruit.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      width: 730px;
+  }
+
+  .text3 {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+  h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+
+  #company p,
+  #recruit p {
+      font-size: 16px;
+  }
+
+  #FAQ {
+      margin: 180px 200px;
+      width: 1100px;
+      background-color: black;
+      color: white;
+      display: flex;
+      padding-top: 40px;
+      padding-bottom: 30px;
+  }
+
+  #FAQ p {
+      padding-left: 435px;
+      font-size: 16px;
+  }
+
+  #FAQ h2 {
+      font-size: 24px;
+      padding-left: 30px;
+  }
+
+  #contact {
+      background: url(../img/img/contact-bg.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+  }
+
+  .contact-text {
+      color: white;
+      text-align: center;
+      padding-top: 150px;
+  }
+
+  .contact-text p {
+      margin-bottom: 30px;
+  }
+
+  .contact-text h2 {
+      font-size: 32px;
+  }
+
+  .text4 {
+    font-style: bold;
+    font-size: 16px;
+  }
+
+  .text5 {
+      font-size: 32px;
+  }
+
+  .text6 {
+      font-size: 12px;
+  }
+
+  .contact-botton {
+      border: solid 1px white;
+      padding: 10px 20px;
+      display: inline-block;
+      font-size: 12px;
+  }
+
+  footer p {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-size: 14px;
+  }
