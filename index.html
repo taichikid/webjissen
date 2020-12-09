@@ -9,7 +9,7 @@
     <header>
         <div class="flex between">
             <h1 class="header-logo">estra inc.</h1>
-            <nav>
+            <nav class=header-nav>
                 <ul>
                     <li><a href="#">home</a></li>
                     <li><a href="#">about</a></li>
@@ -19,16 +19,23 @@
                     <li><a href="#">contact</a></li>
                 </ul>
             </nav>
-        </div>   
+        </div>
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
     </header>
     <main>
         <div id="eyecatch">
-            <h2>機械ではできない仕事を</h2>
-            <p class="news">news</p>
-            <div class="news-text">
-                <p>2019/01/01</p>
-                <p class="text2">ニュースタイトルがここには入ります。3月の決算報告書</p>
-            </div>         
+            <h2 class="eye">機械ではできない仕事を</h2>
+            <div class="new">
+                <p class="news">news</p>
+                <div class="news-text">
+                    <p>2019/01/01</p>
+                    <p class="text2">ニュースタイトルがここには入ります。3月の決算報告書</p>
+                </div>   
+            </div>
         </div>
         <div class="mission">
             <div class="mission-text">
@@ -89,8 +96,8 @@
     </main>
     <footer>
         <div class="flex between">
-            <h1 class="header-logo">estra inc.</h1>
-            <nav>
+            <h1 id="footer-logo" class="header-logo">estra inc.</h1>
+            <nav class="footer-nav">
                 <ul>
                     <li><a href="#">home</a></li>
                     <li><a href="#">about</a></li>
