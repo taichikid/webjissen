@@ -277,9 +277,10 @@ input, select {
   }
 
   .service-text {
-      width: 440px;
+      width: 37%;
       padding: 70px 80px;
       background-color: white;
+      position: relative;
   }
 
   #content1 {
@@ -298,7 +299,7 @@ input, select {
 
   .syuusei2 {
       position: relative;
-      width: 1200px;
+      width: 100%;
       margin-top: 200px;
   }
 
@@ -306,6 +307,14 @@ input, select {
       position: absolute;
       top: 200px;
       left: 620px;
+  }
+
+  #service-bottun {
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    padding: 5px 10px;
+    border: solid 1px #000;
   }
 
   #company-recruit {
@@ -347,23 +356,23 @@ input, select {
   }
 
   #FAQ {
-      margin: 180px 200px;
+      margin: 10% auto;
       width: 70%;
       background-color: black;
       color: white;
       display: flex;
-      padding-top: 40px;
-      padding-bottom: 30px;
+      padding: 50px; 
   }
 
   #FAQ p {
-      padding-left: 435px;
+      width: 80%;
       font-size: 16px;
+      text-align: center;
   }
 
   #FAQ h2 {
       font-size: 24px;
-      padding-left: 30px;
+      width: 10%;
   }
 
   #contact {
@@ -462,6 +471,7 @@ input, select {
       .eye {
           width: 80%;
           text-align: center;
+          color: rgb(255, 255, 255);
       }
 
       .new {
@@ -494,36 +504,53 @@ input, select {
           margin-bottom: 50px;
       }
 
-      .syuusei1 {
-          width: 140%;
-          height: 50%;
+      #service img {
+          width: 100%;
+          height: auto;
+      }
+
+      .syuusei1,
+      .syuusei2 {
+          width: 90%;
+          margin: 0 auto;
+          padding-bottom: 15%;
       }
 
       .img1 {
-          width: 140%;
-          height: 50%;
-          margin:0;
+          margin: 0;
       }
 
+      .service-text {
+          width: auto;
+          padding: 0 auto;
+      }
+
+      .service-text h3,
+      .service-text p {
+          font-size: 16px;
+      }
+
+      #service-bottun {
+          margin-bottom: 20px;
+      }
+
+      #content1,
       #content2 {
-          position: absolute;
-          left: 10%;
+          position: static;
       }
 
       #company-recruit {
           flex-wrap: wrap;
       }
 
-      #FAQ {
-          margin: 10% 0;
+      #company,
+      #recruit {
           width: 100%;
-          
       }
 
-      #FAQ p,
-      #FAQ h2 {
-          padding: 0;
-          text-align: center;
+      #FAQ {
+          margin: 10% auto;
+          width: 70%;
       }
 
       .contact-text {
@@ -535,7 +562,9 @@ input, select {
           line-height: 140%;
       }
 
-      .footer-logo {
+      #footer-logo {
+          margin: 0;
+          width: 100%;
           text-align: center;
       }
   }
